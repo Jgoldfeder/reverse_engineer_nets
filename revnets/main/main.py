@@ -2,7 +2,6 @@ import revnets.experiments as experiments
 from revnets.utils import config, get_args
 
 
-
 def main():
     args = get_args()
     if args.seed_range:
