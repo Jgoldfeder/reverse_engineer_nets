@@ -4,9 +4,9 @@ import cli
 import numpy as np
 import torch
 
-from .. import evaluations, networks, reconstructions
-from ..networks.train import Network
-from ..utils import NamedClass, Path, Table, always_return_tuple, config
+from revnets import evaluations, networks, reconstructions
+from revnets.networks.train import Network
+from revnets.utils import NamedClass, Path, Table, always_return_tuple, config
 
 
 @dataclass

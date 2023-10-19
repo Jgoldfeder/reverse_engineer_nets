@@ -11,7 +11,7 @@ from revnets.data import random
 from revnets.networks.models.mediumnet import Model
 from revnets.utils import Path, config
 
-from . import weights
+from revnets.experiments.analysis import weights
 
 
 @dataclass

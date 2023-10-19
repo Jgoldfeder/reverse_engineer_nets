@@ -1,6 +1,6 @@
 from functools import cached_property
 
-from ..utils import NamedClass
+from revnets.utils import NamedClass
 
 
 class Network(NamedClass):

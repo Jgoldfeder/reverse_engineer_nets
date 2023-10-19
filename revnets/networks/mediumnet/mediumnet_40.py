@@ -1,4 +1,4 @@
-from . import mediumnet
+from revnets.networks.mediumnet import mediumnet
 
 
 class Network(mediumnet.Network):

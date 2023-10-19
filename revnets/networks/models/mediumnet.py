@@ -1,6 +1,6 @@
 from torch import nn
 
-from . import base
+from revnets.networks.models import base
 
 
 class Model(base.Model):

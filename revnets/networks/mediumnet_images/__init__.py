@@ -1,4 +1,4 @@
-from . import mediumnet, mediumnet_small
+from revnets.networks.mediumnet_images import mediumnet, mediumnet_small
 
 
 def get_all_networks():

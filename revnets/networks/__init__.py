@@ -1,5 +1,5 @@
-from . import mediumnet, mediumnet_images, mininet, mininet_images
-from .train import Network
+from revnets.networks import mediumnet, mediumnet_images, mininet, mininet_images
+from revnets.networks.train import Network
 
 
 def get_all_networks():

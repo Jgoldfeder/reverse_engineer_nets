@@ -3,9 +3,9 @@ import contextlib
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import RichModelSummary
 
-from . import pl_logger
-from .config import config
-from .progress_bar import ProgressBar
+from revnets.utils import pl_logger
+from revnets.utils.config import config
+from revnets.utils.progress_bar import ProgressBar
 
 
 class Trainer(pl.Trainer):

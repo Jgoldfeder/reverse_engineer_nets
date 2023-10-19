@@ -4,9 +4,9 @@ import torch
 
 from revnets.evaluations.weights.standardize.standardize import get_layers
 
-from ..networks.models.base import Model
-from ..networks.train import Network
-from ..utils import NamedClass, config
+from revnets.networks.models.base import Model
+from revnets.networks.train import Network
+from revnets.utils import NamedClass, config
 
 
 @dataclass

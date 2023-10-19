@@ -1,1 +1,1 @@
-from .main import main
+from revnets.main import main

@@ -1,4 +1,4 @@
-from . import mininet_small
+from revnets.networks.mininet_images import mininet_small
 
 
 class Network(mininet_small.Network):

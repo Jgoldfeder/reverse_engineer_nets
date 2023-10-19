@@ -1,5 +1,6 @@
-from .. import experiments
-from ..utils import config, get_args
+import revnets.experiments as experiments
+from revnets.utils import config, get_args
+
 
 
 def main():

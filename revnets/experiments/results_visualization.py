@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from ..utils.colors import get_colors
-from ..utils.path import Path
+from revnets.utils.colors import get_colors
+from revnets.utils.path import Path
 
 
 class Experiment:

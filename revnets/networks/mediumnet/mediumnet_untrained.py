@@ -1,5 +1,5 @@
-from .. import models
-from ..mininet import mininet_untrained
+from revnets.networks import models
+from revnets.networks.mininet import mininet_untrained
 
 
 class Network(mininet_untrained.Network):

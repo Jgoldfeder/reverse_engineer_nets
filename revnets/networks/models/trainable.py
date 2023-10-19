@@ -5,7 +5,7 @@ import torch.nn
 import torchmetrics
 from torch import nn
 
-from .metrics import Metrics, Phase
+from revnets.networks.models.metrics import Metrics, Phase
 
 
 class Model(pl.LightningModule):

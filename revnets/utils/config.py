@@ -8,11 +8,11 @@ from functools import cached_property
 import cli
 from pytorch_lightning import Trainer
 
-from . import pl_logger
-from .args import get_args
-from .logger import get_logger
-from .path import Path
-from .rank import rank_zero_only
+from revnets.utils import pl_logger
+from revnets.utils.args import get_args
+from revnets.utils.logger import get_logger
+from revnets.utils.path import Path
+from revnets.utils.rank import rank_zero_only
 
 
 @dataclass

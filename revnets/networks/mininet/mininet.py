@@ -1,5 +1,5 @@
-from ...utils import config
-from . import mininet_untrained
+from revnets.utils import config
+from revnets.networks.mininet import mininet_untrained
 
 
 class Network(mininet_untrained.Network):

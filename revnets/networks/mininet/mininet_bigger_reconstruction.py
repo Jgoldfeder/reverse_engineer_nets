@@ -1,7 +1,7 @@
 import torch
 
-from ...utils import config
-from . import mininet
+from revnets.utils import config
+from revnets.networks.mininet import mininet
 
 
 class Network(mininet.Network):

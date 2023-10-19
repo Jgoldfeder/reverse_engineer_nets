@@ -1,4 +1,4 @@
-from . import mininet
+from revnets.networks.models import mininet
 
 
 class Model(mininet.Model):

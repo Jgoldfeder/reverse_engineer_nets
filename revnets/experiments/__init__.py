@@ -1,2 +1,2 @@
-from . import analysis, data_requirements, experiment, results_visualization
-from .experiment import Experiment
+from revnets.experiments import analysis, data_requirements, experiment, results_visualization
+from revnets.experiments.experiment import Experiment

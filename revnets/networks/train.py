@@ -5,11 +5,11 @@ from cacher import cache
 
 from revnets.utils import config
 
-from ..data.base import Dataset
-from ..utils import Path
-from ..utils.trainer import Trainer
-from . import base
-from .models import trainable
+from revnets.data.base import Dataset
+from revnets.utils import Path
+from revnets.utils.trainer import Trainer
+from revnets.networks import base
+from revnets.networks.models import trainable
 
 
 class Network(base.Network, ABC):

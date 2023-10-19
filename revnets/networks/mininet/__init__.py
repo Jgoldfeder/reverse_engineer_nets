@@ -1,4 +1,4 @@
-from . import (
+from revnets.networks.mininet import (
     mininet,
     mininet_40,
     mininet_100,

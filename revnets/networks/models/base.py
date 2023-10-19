@@ -2,8 +2,8 @@ import torch
 import torch.optim as optim
 from torch import nn
 
-from ...utils import NamedClass, config
-from ...utils.config import Activation
+from revnets.utils import NamedClass, config
+from revnets.utils.config import Activation
 
 
 class Model(torch.nn.Module, NamedClass):

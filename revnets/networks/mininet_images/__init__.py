@@ -1,4 +1,4 @@
-from . import mininet_100, mininet_128, mininet_200, mininet_small
+from revnets.networks.mininet_images import mininet_100, mininet_128, mininet_200, mininet_small
 
 
 def get_all_networks():

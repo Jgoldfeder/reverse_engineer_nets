@@ -1,4 +1,4 @@
-from . import cheat, empty, outputs_supervision, retrain
+from revnets.reconstructions import cheat, empty, outputs_supervision, retrain
 
 
 def get_algorithms():

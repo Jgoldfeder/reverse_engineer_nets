@@ -8,8 +8,8 @@ from cacher import decorator
 from cacher.caches import base
 from pytorch_lightning.tuner.tuning import Tuner
 
-from .config import config
-from .trainer import Trainer
+from revnets.utils.config import config
+from revnets.utils.trainer import Trainer
 
 if typing.TYPE_CHECKING:
     from ..data import Dataset  # noqa: autoimport

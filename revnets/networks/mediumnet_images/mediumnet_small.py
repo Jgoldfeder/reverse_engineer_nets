@@ -1,7 +1,7 @@
 from revnets import data
 
-from .. import models
-from . import mediumnet
+from revnets.networks import models
+from revnets.networks.mediumnet_images import mediumnet
 
 
 class Network(mediumnet.Network):

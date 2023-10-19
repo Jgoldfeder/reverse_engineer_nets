@@ -2,9 +2,9 @@ from dataclasses import dataclass
 
 from revnets.utils.trainer import Trainer
 
-from ...networks.models import trainable
-from ...networks.train import Network
-from .. import experiment
+from revnets.networks.models import trainable
+from revnets.networks.train import Network
+from revnets.experiments import experiment
 
 
 @dataclass

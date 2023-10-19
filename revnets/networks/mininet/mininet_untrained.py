@@ -1,9 +1,9 @@
 import torch.random
 
-from ...data import mnist1d
-from ...utils import config
-from .. import train
-from ..models import mininet
+from revnets.data import mnist1d
+from revnets.utils import config
+from revnets.networks import train
+from revnets.networks.models import mininet
 
 
 class Network(train.Network):

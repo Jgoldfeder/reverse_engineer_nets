@@ -5,7 +5,7 @@ import numpy as np
 
 from revnets import data
 
-from .. import experiment
+from revnets.experiments import experiment
 
 
 @dataclass

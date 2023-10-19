@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from ...evaluations import outputs, weights
-from .. import experiment
+from revnets.evaluations import outputs, weights
+from revnets.experiments import experiment
 
 
 @dataclass

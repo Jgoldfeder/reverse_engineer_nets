@@ -5,7 +5,7 @@ import typing
 
 from pytorch_lightning import loggers
 
-from .rank import rank_zero_only
+from revnets.utils.rank import rank_zero_only
 
 if typing.TYPE_CHECKING:
     from ..utils import Config  # noqa: autoimport

@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from ... import networks, reconstructions
-from .. import experiment
+from revnets import networks, reconstructions
+from revnets.experiments import experiment
 
 
 @dataclass

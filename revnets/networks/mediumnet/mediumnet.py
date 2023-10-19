@@ -1,5 +1,5 @@
-from .. import models
-from ..mininet import mininet
+from revnets.networks import models
+from revnets.networks.mininet import mininet
 
 
 class Network(mininet.Network):

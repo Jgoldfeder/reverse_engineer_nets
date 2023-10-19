@@ -1,4 +1,4 @@
-from . import (
+from revnets.experiments.analysis import (
     activations,
     input_data,
     iterative_sampling,

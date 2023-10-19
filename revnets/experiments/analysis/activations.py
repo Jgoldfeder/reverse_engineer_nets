@@ -10,8 +10,8 @@ from revnets import data
 from revnets.networks.models.mediumnet import Model
 from revnets.utils import config
 
-from ... import networks
-from . import weights
+import revnets.networks as networks
+from revnets.experiments.analysis import weights
 
 
 @dataclass

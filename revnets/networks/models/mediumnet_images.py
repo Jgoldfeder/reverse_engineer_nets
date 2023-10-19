@@ -1,4 +1,4 @@
-from . import mediumnet
+from revnets.networks.models import mediumnet
 
 
 class Model(mediumnet.Model):

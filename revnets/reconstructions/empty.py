@@ -1,4 +1,4 @@
-from . import base
+from revnets.reconstructions import base
 
 
 class Reconstructor(base.Reconstructor):
